@@ -5734,7 +5734,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/88816/murs340.pdf"
 			(at 115.57 27.94 90)
 			(hide yes)
 			(show_name no)
@@ -5838,7 +5838,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/88816/murs340.pdf"
 			(at 115.57 38.1 90)
 			(hide yes)
 			(show_name no)

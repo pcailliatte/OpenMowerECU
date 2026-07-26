@@ -2061,7 +2061,7 @@
 		)
 		(uuid "fe792627-3248-4af8-8ead-996bfb85d4e1")
 	)
-	(label "+5v"
+	(label "+3.3v"
 		(at 161.29 115.57 0)
 		(effects
 			(font
@@ -3418,7 +3418,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+3.3v"
 			(at 176.53 113.0299 0)
 			(show_name no)
 			(do_not_autoplace no)

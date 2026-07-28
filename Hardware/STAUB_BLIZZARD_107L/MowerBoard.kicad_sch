@@ -5016,7 +5016,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Lib:CONN_SDA_43255-00xx_06_MOL"
+		(property "Footprint" "Custom:CONN_SDA_43255-00xx_06_MOL_NO_MARK"
 			(at 33.02 66.04 0)
 			(hide yes)
 			(show_name no)

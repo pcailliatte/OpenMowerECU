@@ -5,6 +5,183 @@
 	(uuid "a9c966e2-436a-4817-b440-3684664f308d")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:C_Polarized"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -1663,12 +1840,6 @@
 		(uuid "573e7974-5717-49df-b8d0-233c0b5a9c77")
 	)
 	(junction
-		(at 200.66 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5c668c25-caa0-4a3d-89cb-6ff731b0570b")
-	)
-	(junction
 		(at 140.97 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1709,6 +1880,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c9114847-6fe6-4a12-8ce0-51dd901f00ec")
+	)
+	(junction
+		(at 200.66 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf4d2643-c870-46a3-963f-7c609812a607")
 	)
 	(junction
 		(at 199.39 85.09)
@@ -1914,6 +2091,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 147.32) (xy 208.28 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cd1cdba-e29f-4cd4-9672-83a7b799cc95")
+	)
+	(wire
+		(pts
 			(xy 210.82 113.03) (xy 210.82 127)
 		)
 		(stroke
@@ -2011,6 +2198,16 @@
 			(type default)
 		)
 		(uuid "2d68989f-0341-4c8e-9260-a8911f7be342")
+	)
+	(wire
+		(pts
+			(xy 200.66 157.48) (xy 200.66 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30ca0bc2-204f-4402-935d-9487cb97a779")
 	)
 	(wire
 		(pts
@@ -2231,16 +2428,6 @@
 			(type default)
 		)
 		(uuid "6e48ec73-add2-406d-91e2-b408bef25068")
-	)
-	(wire
-		(pts
-			(xy 200.66 160.02) (xy 200.66 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f81cd9d-44e9-40be-8cba-07195daa6b0c")
 	)
 	(wire
 		(pts
@@ -2534,16 +2721,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 147.32) (xy 208.28 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6f45908-483d-4509-afea-09ced41a3676")
-	)
-	(wire
-		(pts
 			(xy 166.37 160.02) (xy 176.53 160.02)
 		)
 		(stroke
@@ -2571,6 +2748,16 @@
 			(type default)
 		)
 		(uuid "dc90bd5d-6f5e-4f86-b110-1e4e736d4154")
+	)
+	(wire
+		(pts
+			(xy 200.66 147.32) (xy 200.66 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfff30a4-775f-4350-bf9e-201cb9569ded")
 	)
 	(wire
 		(pts
@@ -2641,16 +2828,6 @@
 			(type default)
 		)
 		(uuid "f3128e6f-1e8d-4444-9d37-ca79424df0a7")
-	)
-	(wire
-		(pts
-			(xy 200.66 151.13) (xy 200.66 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3903c7f-fbb6-4f0a-9c37-7aa08c5b7284")
 	)
 	(wire
 		(pts
@@ -2968,7 +3145,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "100 1/4W"
 			(at 123.19 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3048,7 +3225,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "100 1/4W"
 			(at 113.03 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3128,7 +3305,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "100 1/4W"
 			(at 123.19 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3209,7 +3386,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF 50V"
 			(at 82.55 118.1035 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3220,7 +3397,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 80.01 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -3290,7 +3467,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF 50V"
 			(at 212.09 111.7535 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3301,7 +3478,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 210.82 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -3371,7 +3548,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF 50V"
 			(at 77.47 111.7535 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3382,7 +3559,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 76.2 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -3453,7 +3630,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF 50V"
 			(at 93.98 113.0235 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3464,7 +3641,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 91.44 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -3612,7 +3789,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "100 1/4W"
 			(at 191.77 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3692,7 +3869,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF 50V"
 			(at 204.47 111.7535 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3703,7 +3880,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 203.2 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -3763,7 +3940,7 @@
 		(dnp no)
 		(uuid "4a713e4b-ad08-4d85-b07e-758e1e6f0d15")
 		(property "Reference" "C27"
-			(at 167.64 152.3935 0)
+			(at 151.892 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3773,8 +3950,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1uF"
-			(at 167.64 154.9335 0)
+		(property "Value" "100nF 50V"
+			(at 151.892 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3784,7 +3961,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 166.37 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -3854,7 +4031,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "100 1/4W"
 			(at 181.61 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3934,7 +4111,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1nF"
+		(property "Value" "1nF 50V"
 			(at 177.8 154.9335 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4093,7 +4270,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF 15V"
 			(at 180.34 34.2835 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4174,7 +4351,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF 50V"
 			(at 208.28 118.1035 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4185,7 +4362,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 207.01 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -4256,7 +4433,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF 50V"
 			(at 86.36 111.7535 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4267,7 +4444,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 83.82 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -4337,7 +4514,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "100 1/4W"
 			(at 113.03 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4474,8 +4651,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 200.66 153.67 180)
+		(lib_id "Device:C_Polarized")
+		(at 200.66 153.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4485,7 +4662,7 @@
 		(dnp no)
 		(uuid "93031c77-3466-4c01-a3d7-0fd6aa46067e")
 		(property "Reference" "C26"
-			(at 201.93 152.3935 0)
+			(at 214.884 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4495,8 +4672,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100uF"
-			(at 201.93 154.9335 0)
+		(property "Value" "100uF 50V"
+			(at 214.884 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4506,8 +4683,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.7"
-			(at 200.66 153.67 0)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10"
+			(at 201.6252 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4528,7 +4705,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "GXC1V101MCW1GS"
 			(at 200.66 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -4576,7 +4753,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "100 1/4W"
 			(at 113.03 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4657,7 +4834,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF 50V"
 			(at 90.17 119.3735 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4668,7 +4845,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 87.63 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -4893,7 +5070,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "100 1/4W"
 			(at 123.19 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4973,7 +5150,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "100 1/4W"
 			(at 181.61 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5131,7 +5308,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF 50V"
 			(at 200.66 118.1035 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5142,7 +5319,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 199.39 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -5290,7 +5467,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "100 1/4W"
 			(at 191.77 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5370,7 +5547,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF 50V"
 			(at 73.66 118.1035 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5381,7 +5558,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 72.39 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -5461,7 +5638,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:QFN50P500X500X90-33N-D"
+		(property "Footprint" "Custom:QFN50P500X500X90-33N-D_Pasta"
 			(at 165.1 169.85 0)
 			(hide yes)
 			(show_name no)
@@ -5676,7 +5853,7 @@
 		(dnp no)
 		(uuid "e588793f-8cf0-4f7b-81c3-c6481603cef9")
 		(property "Reference" "D16"
-			(at 187.198 151.13 0)
+			(at 186.944 140.462 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5685,8 +5862,8 @@
 				)
 			)
 		)
-		(property "Value" "D_Schottky_Small"
-			(at 186.69 153.67 0)
+		(property "Value" "PMEG60T30ELR-QX"
+			(at 186.436 143.002 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

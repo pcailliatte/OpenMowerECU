@@ -3728,7 +3728,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c01ee67-b6b7-4f60-bbf6-8b55201e0440")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR038"
 			(at 99.06 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -3789,7 +3789,7 @@
 		(instances
 			(project "MowerBoard"
 				(path "/bd3c2afb-bb7d-4136-bab9-15428914e155/ced33967-10ce-4984-96f4-a5f09c0226a1"
-					(reference "#PWR042")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -3807,7 +3807,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1dbb7955-2502-4d0e-bbf0-fdc8c97831db")
-		(property "Reference" "R20"
+		(property "Reference" "R11"
 			(at 77.47 72.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3871,7 +3871,7 @@
 		(instances
 			(project "MowerBoard"
 				(path "/bd3c2afb-bb7d-4136-bab9-15428914e155/ced33967-10ce-4984-96f4-a5f09c0226a1"
-					(reference "R20")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -3889,7 +3889,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22433df5-5d33-4bcf-8f84-34bbea47907f")
-		(property "Reference" "D13"
+		(property "Reference" "D11"
 			(at 66.04 180.4034 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3964,7 +3964,7 @@
 		(instances
 			(project "MowerBoard"
 				(path "/bd3c2afb-bb7d-4136-bab9-15428914e155/ced33967-10ce-4984-96f4-a5f09c0226a1"
-					(reference "D13")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -3982,7 +3982,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22552354-ae67-4249-adb0-e8b50d7417ce")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR034"
 			(at 39.37 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -4043,7 +4043,7 @@
 		(instances
 			(project "MowerBoard"
 				(path "/bd3c2afb-bb7d-4136-bab9-15428914e155/ced33967-10ce-4984-96f4-a5f09c0226a1"
-					(reference "#PWR046")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -4060,7 +4060,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "27490de6-12c5-419c-87b3-964006e4dd5e")
-		(property "Reference" "D10"
+		(property "Reference" "D14"
 			(at 88.138 158.75 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4135,7 +4135,7 @@
 		(instances
 			(project "MowerBoard"
 				(path "/bd3c2afb-bb7d-4136-bab9-15428914e155/ced33967-10ce-4984-96f4-a5f09c0226a1"
-					(reference "D10")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -4152,7 +4152,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2902d604-280e-4f02-8a95-f0ae3f4d9f0e")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR039"
 			(at 134.62 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -4212,7 +4212,7 @@
 		(instances
 			(project "MowerBoard"
 				(path "/bd3c2afb-bb7d-4136-bab9-15428914e155/ced33967-10ce-4984-96f4-a5f09c0226a1"
-					(reference "#PWR044")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -4230,7 +4230,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b6eedfb-7c14-42e3-ab83-1368ce52befe")
-		(property "Reference" "D11"
+		(property "Reference" "D15"
 			(at 110.49 158.8134 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4305,7 +4305,7 @@
 		(instances
 			(project "MowerBoard"
 				(path "/bd3c2afb-bb7d-4136-bab9-15428914e155/ced33967-10ce-4984-96f4-a5f09c0226a1"
-					(reference "D11")
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -4323,7 +4323,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "318b831b-7f37-4335-be71-901102f79705")
-		(property "Reference" "R21"
+		(property "Reference" "R14"
 			(at 237.49 35.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4387,7 +4387,7 @@
 		(instances
 			(project "MowerBoard"
 				(path "/bd3c2afb-bb7d-4136-bab9-15428914e155/ced33967-10ce-4984-96f4-a5f09c0226a1"
-					(reference "R21")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -4405,7 +4405,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42f9255e-28dd-4798-b4b7-888962e79f90")
-		(property "Reference" "C34"
+		(property "Reference" "C11"
 			(at 41.91 100.3235 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4469,7 +4469,7 @@
 		(instances
 			(project "MowerBoard"
 				(path "/bd3c2afb-bb7d-4136-bab9-15428914e155/ced33967-10ce-4984-96f4-a5f09c0226a1"
-					(reference "C34")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -4486,7 +4486,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "499bf657-d4d6-4ecb-ae1a-c00cc1ba5ad2")
-		(property "Reference" "D12"
+		(property "Reference" "D9"
 			(at 43.434 180.34 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4561,7 +4561,7 @@
 		(instances
 			(project "MowerBoard"
 				(path "/bd3c2afb-bb7d-4136-bab9-15428914e155/ced33967-10ce-4984-96f4-a5f09c0226a1"
-					(reference "D12")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -4579,7 +4579,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "502cd7ec-be88-4301-be98-c1c5aebcb328")
-		(property "Reference" "R18"
+		(property "Reference" "R13"
 			(at 196.85 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4641,7 +4641,7 @@
 		(instances
 			(project "MowerBoard"
 				(path "/bd3c2afb-bb7d-4136-bab9-15428914e155/ced33967-10ce-4984-96f4-a5f09c0226a1"
-					(reference "R18")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -4659,7 +4659,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "565ad0f0-f176-42cf-84ea-036fbe72b3b0")
-		(property "Reference" "C35"
+		(property "Reference" "C12"
 			(at 64.77 100.3235 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4723,7 +4723,7 @@
 		(instances
 			(project "MowerBoard"
 				(path "/bd3c2afb-bb7d-4136-bab9-15428914e155/ced33967-10ce-4984-96f4-a5f09c0226a1"
-					(reference "C35")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -4741,7 +4741,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ee21288-5276-46c1-ad05-8df2a845ce72")
-		(property "Reference" "C31"
+		(property "Reference" "C13"
 			(at 173.99 149.8535 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4805,7 +4805,7 @@
 		(instances
 			(project "MowerBoard"
 				(path "/bd3c2afb-bb7d-4136-bab9-15428914e155/ced33967-10ce-4984-96f4-a5f09c0226a1"
-					(reference "C31")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -4823,7 +4823,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "606d095d-7153-4657-8471-3554cc2610fc")
-		(property "Reference" "R19"
+		(property "Reference" "R12"
 			(at 95.25 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4887,7 +4887,7 @@
 		(instances
 			(project "MowerBoard"
 				(path "/bd3c2afb-bb7d-4136-bab9-15428914e155/ced33967-10ce-4984-96f4-a5f09c0226a1"
-					(reference "R19")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -4904,7 +4904,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "663bce7e-4b84-42c9-99c6-9e70abdef4a2")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR037"
 			(at 92.71 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -4964,7 +4964,7 @@
 		(instances
 			(project "MowerBoard"
 				(path "/bd3c2afb-bb7d-4136-bab9-15428914e155/ced33967-10ce-4984-96f4-a5f09c0226a1"
-					(reference "#PWR057")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -4982,7 +4982,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7347b5b6-cfd7-4fd0-82b3-6c9293281380")
-		(property "Reference" "D15"
+		(property "Reference" "D13"
 			(at 91.44 180.4034 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5057,7 +5057,7 @@
 		(instances
 			(project "MowerBoard"
 				(path "/bd3c2afb-bb7d-4136-bab9-15428914e155/ced33967-10ce-4984-96f4-a5f09c0226a1"
-					(reference "D15")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -5075,7 +5075,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7395622c-6b20-42f7-bea5-f7f76d6f9b69")
-		(property "Reference" "C32"
+		(property "Reference" "C14"
 			(at 194.31 149.8535 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5139,7 +5139,7 @@
 		(instances
 			(project "MowerBoard"
 				(path "/bd3c2afb-bb7d-4136-bab9-15428914e155/ced33967-10ce-4984-96f4-a5f09c0226a1"
-					(reference "C32")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -5156,7 +5156,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8bac811c-cfb7-49ba-816f-2ab09f87de18")
-		(property "Reference" "D14"
+		(property "Reference" "D12"
 			(at 72.644 180.594 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5231,7 +5231,7 @@
 		(instances
 			(project "MowerBoard"
 				(path "/bd3c2afb-bb7d-4136-bab9-15428914e155/ced33967-10ce-4984-96f4-a5f09c0226a1"
-					(reference "D14")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -5248,7 +5248,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bd7d74bd-bde6-421f-9104-0bda686b3f7a")
-		(property "Reference" "D3"
+		(property "Reference" "D8"
 			(at 45.466 157.226 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5323,7 +5323,7 @@
 		(instances
 			(project "MowerBoard"
 				(path "/bd3c2afb-bb7d-4136-bab9-15428914e155/ced33967-10ce-4984-96f4-a5f09c0226a1"
-					(reference "D3")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -5341,7 +5341,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0e9a5d7-265a-4d96-b876-8939a8157e97")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR044"
 			(at 234.95 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -5401,7 +5401,7 @@
 		(instances
 			(project "MowerBoard"
 				(path "/bd3c2afb-bb7d-4136-bab9-15428914e155/ced33967-10ce-4984-96f4-a5f09c0226a1"
-					(reference "#PWR059")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -5419,7 +5419,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c812ecc7-1a6e-4c8a-8774-a34f1546cbfa")
-		(property "Reference" "IC3"
+		(property "Reference" "IC1"
 			(at 173.99 81.2098 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5684,7 +5684,7 @@
 		(instances
 			(project "MowerBoard"
 				(path "/bd3c2afb-bb7d-4136-bab9-15428914e155/ced33967-10ce-4984-96f4-a5f09c0226a1"
-					(reference "IC3")
+					(reference "IC1")
 					(unit 1)
 				)
 			)
@@ -5702,7 +5702,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d01a17a6-797f-4265-9bd4-56648c8352ff")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR036"
 			(at 74.93 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -5762,7 +5762,7 @@
 		(instances
 			(project "MowerBoard"
 				(path "/bd3c2afb-bb7d-4136-bab9-15428914e155/ced33967-10ce-4984-96f4-a5f09c0226a1"
-					(reference "#PWR058")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -5779,7 +5779,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "df23d1ec-9422-421c-8453-d268ab5bcfd2")
-		(property "Reference" "D8"
+		(property "Reference" "D16"
 			(at 218.44 149.098 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5841,7 +5841,7 @@
 		(instances
 			(project "MowerBoard"
 				(path "/bd3c2afb-bb7d-4136-bab9-15428914e155/ced33967-10ce-4984-96f4-a5f09c0226a1"
-					(reference "D8")
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -5859,7 +5859,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e097c27a-1d7b-478c-9c7f-86ff8a3ba4a6")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR042"
 			(at 213.36 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -5920,7 +5920,7 @@
 		(instances
 			(project "MowerBoard"
 				(path "/bd3c2afb-bb7d-4136-bab9-15428914e155/ced33967-10ce-4984-96f4-a5f09c0226a1"
-					(reference "#PWR056")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -5938,7 +5938,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1adc7b5-93f1-44b5-b9b3-5dbb58895b27")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR035"
 			(at 49.53 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -5998,7 +5998,7 @@
 		(instances
 			(project "MowerBoard"
 				(path "/bd3c2afb-bb7d-4136-bab9-15428914e155/ced33967-10ce-4984-96f4-a5f09c0226a1"
-					(reference "#PWR068")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -6016,7 +6016,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8e520c5-c161-4123-aefb-52990e3109c6")
-		(property "Reference" "R5"
+		(property "Reference" "R10"
 			(at 40.64 184.15 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6078,7 +6078,7 @@
 		(instances
 			(project "MowerBoard"
 				(path "/bd3c2afb-bb7d-4136-bab9-15428914e155/ced33967-10ce-4984-96f4-a5f09c0226a1"
-					(reference "R5")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -6096,7 +6096,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea1a0b26-8933-4a11-8037-fa70c45d6098")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR040"
 			(at 186.69 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -6157,7 +6157,7 @@
 		(instances
 			(project "MowerBoard"
 				(path "/bd3c2afb-bb7d-4136-bab9-15428914e155/ced33967-10ce-4984-96f4-a5f09c0226a1"
-					(reference "#PWR043")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -6175,7 +6175,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f27023bb-9a04-47e9-8bff-edd18b6e1655")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR041"
 			(at 182.88 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -6235,7 +6235,7 @@
 		(instances
 			(project "MowerBoard"
 				(path "/bd3c2afb-bb7d-4136-bab9-15428914e155/ced33967-10ce-4984-96f4-a5f09c0226a1"
-					(reference "#PWR061")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -6253,7 +6253,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3d0a2ac-446c-4547-b6d3-73ab0aea3b19")
-		(property "Reference" "R4"
+		(property "Reference" "R9"
 			(at 40.64 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6315,7 +6315,7 @@
 		(instances
 			(project "MowerBoard"
 				(path "/bd3c2afb-bb7d-4136-bab9-15428914e155/ced33967-10ce-4984-96f4-a5f09c0226a1"
-					(reference "R4")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -6333,7 +6333,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa5be14e-1d62-45cf-9629-79d4c04601d3")
-		(property "Reference" "D9"
+		(property "Reference" "D10"
 			(at 66.04 157.5434 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6408,7 +6408,7 @@
 		(instances
 			(project "MowerBoard"
 				(path "/bd3c2afb-bb7d-4136-bab9-15428914e155/ced33967-10ce-4984-96f4-a5f09c0226a1"
-					(reference "D9")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -6426,7 +6426,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fae4a91d-f850-4742-b991-03f74bbc3010")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR043"
 			(at 217.17 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -6487,7 +6487,7 @@
 		(instances
 			(project "MowerBoard"
 				(path "/bd3c2afb-bb7d-4136-bab9-15428914e155/ced33967-10ce-4984-96f4-a5f09c0226a1"
-					(reference "#PWR045")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
